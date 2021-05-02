@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=10">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Final Project</title>
+    <link rel="stylesheet" href="cssstyles.css">
+
+    <script src="utilitypage.js"></script>
+</head>
+
+<body>
+    <h1>Pranith's JavaScript Final Project</h1>
+    <hr>
+    <div id="d1">
+        <h2>Returns a random number between 1-100</h2>
+        <button onclick="randomNumberfrom1to100()">Click Me</button>
+        <p id="p1"></p>
+    </div>
+    <hr>
+    <div id="d2">
+        <h2>Returns a random number between "Start" and "End"</h2>
+        <label for="rand">Start Number</label>
+        <input type="text" id="i1" name="rand1">
+        <label for="rand">End Number</label>
+        <input type="text" id="i2" name="rand2">
+        <button onclick="randomNumber()" >Click Me</button>
+        <p id="p2"></p>
+    </div>
+    <hr>
+    <div id="d3">
+        <h2>Returns a long Lorem Ipsum String</h2>
+        <button onclick="loremString()" >Click Me</button>
+        <p id="p3"></p>
+    </div>
+    <hr>
+    <div>
+        <h2>Returns a Lorem Ipsum String based on the number of sentences specified</h2>
+        <label for="rand">Number of sentences</label>
+        <input type="text"  id="i3">
+        <button onclick="loremSentence()" >Click Me</button>
+        <p id="p4"></p>
+    </div>
+    <hr>
+    <div id="d4">
+        <h2>Returns a Lorem Ipsum String based on the number or characters specified</h2>
+        <label for="rand">number of characters</label>
+        <input type="text" id="i4">
+        <button onclick="loremChars()" >Click Me</button>
+        <p id="p5"></p>
+    </div>
+    <hr>
+    <div id="d5">
+        <h2>Returns the current date(formatted)</h2>
+        <button onclick="getDate()" >Click Me</button>
+        <p id="p6"></p>
+    </div>
+    <hr>
+    <div id="d6">
+        <h2>Returns the current time(formatted)</h2>
+        <button onclick="getTime()" >Click Me</button>
+        <p id="p7"></p>
+    </div>
+    <hr>
+    <div  id="d7">
+        <h2>Converts Inches to Feet</h2>
+        <label for="rand">Number of inches</label>
+        <input type="text" id="i5">
+        <button onclick="inchestofeet()" >Click Me</button>
+        <p id="p8"></p>
+    </div>
+    <hr>
+    <div id="d8">
+        <h2>Converts Feet to Inches</h2>
+        <label for="rand">Number of feets</label>
+        <input type="text" id="i6">
+        <button onclick="feettoinches()" >Click Me</button>
+        <p id="p9"></p>
+    </div>
+    <hr>
+    <div id="d9">
+        <h2>Compares if two words are the same length</h2>
+        <label for="rand">First Word</label>
+        <input type="text" id="i7">
+        <label for="rand">Second Word</label>
+        <input type="text" id="i8">
+        <button onclick="compareWords()" >Click Me</button>
+        <p id="p10"></p>
+    </div>
+    <hr>
+    <div id="d10">
+        <h2>Returns a random password</h2>
+        <button onclick="randomPassword()" >Click Me</button>
+        <p id="p11"></p>
+    </div>
+    <hr>
+    <div id="d11">
+        <!-- Challenge. See if you can use the % symbol. Google "javascript modulo". -->
+        <h2>Tells you if the number is even or odd</h2>
+        <label for="rand">Number</label>
+        <input type="text" id="i9">
+        <button onclick="evenOrOdd()" >Click Me</button>
+        <p id="p12"></p>
+    </div>
+    <hr>
+    <div id="d12">
+        <h2>Returns a random color</h2>
+        <button onclick="randColor()" >Click Me</button>
+        <p id="p13"></p>
+    </div>
+    <hr>
+    <div id="d13">
+        <h2>Returns a random first and last name</h2>
+        <button onclick="randName()" >Click Me</button>
+        <p id="p14"></p>
+    </div>
+    <hr>
+    <div id="d14">
+        <h2>Mouse Events Examples</h2>
+        <p id="p15" onclick="mouseClicked()" ondblclick="mouseDoubleClicked() " onmouseout="mouseReleased()" > Click Me </p>
+        <p id ="p16" onmouseover="mouseOver()" onmouseout="mouseOut()">Mouse is not over me </p>
+    </div>
+    <hr>
+</body>
+
+</html>

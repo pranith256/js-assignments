@@ -1,0 +1,71 @@
+#p1 {
+    color:brown;
+}
+
+#p2 {
+    background-color: coral;
+}
+
+#p3 {
+    margin-top: 1em;
+}
+
+body {
+    background-color: darkgray;
+}
+
+#d12 {
+    background: lightpink;
+
+}
+#d11 {
+    background: lightpink;
+
+}
+#d10 {
+    background: lightpink;
+
+}
+#d9 {
+    background-color: rgb(255, 115, 0);
+
+}
+
+#d8 {
+    background: rgb(182, 244, 255);
+
+}
+#d7 {
+    background: rgb(255, 182, 249);
+
+}
+#d6 {
+    background: rgb(182, 205, 255);
+
+}
+#d5 {
+    background: rgba(80, 22, 15, 0.144);
+
+}
+#d4 {
+    background: rgb(60, 167, 18);
+
+}
+
+#d3 {
+    background: rgb(207, 61, 83);
+
+}
+#d2 {
+    background: rgb(14, 173, 194);
+
+}
+#d1 {
+    background-color: lightyellow;
+
+}
+ p {
+     font-size: 1.5em;
+     font-style: italic;
+     
+ }
